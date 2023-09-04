@@ -2,23 +2,23 @@
 Le dépôt contient deux dossiers principaux
 - Un dossier "mémoire", avec le dossier contenant le mémoire sous format .tex ainsi que les illustrations et annexes
 - un dossier "livrables" avec les fichiers qui ont été remis à l'AAFS, contenant:
-      - un dossier "Archives":
-           - un dossier "Conversion Excel EAD" contenant:
-                  -la dernière version d'un inventaire Excel d'archives,
-                  -le code python qui a permis la transformation de l'Excel en XML-EAD,
-                  -le fichier d'entrée en XML EAD
-                  - le fichier de sortie en XML-EAD, contenant toutes les données d'archives sous ce format
-            - un dossier "Conversion EAD-CSV":
-                  - un code python pour l'extraction de données du fichier XML EAD vers le format CSV, pour import dans la base d'archives
-                  - le fichier CSV résultat de cette extraction
-                  - un dossier contenant six fichiers CSV, correspondant aux archives par tranches de 1000 (pour faciliter la mise en base)
-            - un dossier "Conversion EAD-HTML":
-                  - un CSV "archives fichier général", qui correspond à une extraction des pièces d'archives de la base Omeka S (pour récupérer les identifiants)
-                  - une copie de l'XML EAD d'archives initial
-                  - un code python pour introduire dans l'XML EAD les identifiants de la base d'Omeka S (issus du fichier CVS)
-                  - l'XML EAD enrichi de ces identifiants d'Omeka S
-                  - un fichier XSL s'appliquant à ce dernier fichier XML EAD, pour une édition des données en HTML
-                  - le fichier HTML, publiant les données d'archives sous forme de cascade sur une page web
-      - un dossier "Exports de la base", avec des CSV d'exports finaux des données entrées dans Omeka S (divisé en deux sous dossiers)
-      - "CSV d'import problématiques", avec des fichiers dont le résultat de l'insertion dépend d'une manipulation de l'Ecole Centrale de Nantes (qui héberge les données d'Omeka S)
-      - trois fichiers "Documentation", sous différents formats, expliquant les principes de fonctionnement et de mise à jour de la base d'Omeka S
+     - un dossier "Archives":
+          - un dossier "Conversion Excel EAD" contenant:
+              -la dernière version d'un inventaire Excel d'archives,
+                   -le code python qui a permis la transformation de l'Excel en XML-EAD,
+                   -le fichier d'entrée en XML EAD
+                   - le fichier de sortie en XML-EAD, contenant toutes les données d'archives sous ce format
+              - un dossier "Conversion EAD-CSV":
+                   - un code python pour l'extraction de données du fichier XML EAD vers le format CSV, pour import dans la base d'archive
+                   - le fichier CSV résultat de cette extraction
+                   - un dossier contenant six fichiers CSV, correspondant aux archives par tranches de 1000 (pour faciliter la mise en base)
+              - un dossier "Conversion EAD-HTML":
+                   - un CSV "archives fichier général", qui correspond à une extraction des pièces d'archives de la base Omeka S (pour récupérer les identifiants)
+                   - une copie de l'XML EAD d'archives initial
+                   - un code python pour introduire dans l'XML EAD les identifiants de la base d'Omeka S (issus du fichier CVS)
+                   - l'XML EAD enrichi de ces identifiants d'Omeka S
+                   - un fichier XSL s'appliquant à ce dernier fichier XML EAD, pour une édition des données en HTML
+                   - le fichier HTML, publiant les données d'archives sous forme de cascade sur une page web
+     - un dossier "Exports de la base", avec des CSV d'exports finaux des données entrées dans Omeka S (divisé en deux sous dossiers)
+     - "CSV d'import problématiques", avec des fichiers dont le résultat de l'insertion dépend d'une manipulation de l'Ecole Centrale de Nantes (qui héberge les données d'Omeka S)
+     - trois fichiers "Documentation", sous différents formats, expliquant les principes de fonctionnement et de mise à jour de la base d'Omeka S
