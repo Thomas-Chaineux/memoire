@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD)  Version 2002)//EN" "file:/home/thomas/Téléchargements/CLAVAUD Description archivistique/coursEnC2551_2023_descriptionArchivistique-main/formats/ead2002ead.dtd">
+
+<ead>
+    <eadheader>
+        <eadid>Archives_Seguin</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Fonds de la famille Seguin à Varagnes</titleproper>
+                <subtitle>Inventaire analytique des archives</subtitle>
+                <author>par Lisa Lafontaine</author>
+            </titlestmt>
+            <editionstmt>
+                <edition>Première édition électronique</edition>
+            </editionstmt>
+            <publicationstmt>
+                <publisher>Les Amis de la Fondation Seguin</publisher>
+                <date normal="2023-05">mai 2023</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Inventaire XML-EAD encodé à partir de l'inventaire analytique édité par Lisa Lafontaine pour les parties historiques et descriptives du fonds dans son ensemble, et à partir de son fichier Excel (avec le langage Python) ayant servi à l'établissement de l'inventaire pour la description des dossiers constitutifs du fonds. L'encodage est réalisé par Thomas Chaineux, dans le cadre de son stage de fin d'études du Master Technologies Numériques appliquées à l'Histoire dispensé par l'Ecole Nationale des Chartes.</creation>
+            <langusage>Inventaire analytique rédigé en <language langcode="fre">français</language>.</langusage>
+            <descrules>Instrument de recherche produit conformément aux standards ISAD(G)</descrules>
+        </profiledesc>
+        <revisiondesc>
+            <change>
+                <date normal="2023-05">mai 2023</date>
+                <item>La conversion du fichier Excel a permis de corriger quelques erreurs dans la structure du tableur, notamment un décalage d'une cellule dans l'arborescence du fond. L'inventaire analytique édité témoigne de ce décalage (voir par exemple la transition entre les dossiers A1.1.3 et A1.1.4, où le premier document de ce dernier dossier appartient manifestement au dossier précédent.</item>
+                <item>Quelques sorties tronquées dans les tableaux du fichier pdf ont été reprises à partir du même fichier en format Word, obtenu auprès de Lisa Lafontaine.</item>
+                <item>La consultation des archives a également permis de corriger quelques erreurs dans la datation de certains documents. La modification n'a été apportée que lorsque le doute n'est pas permis. </item>
+            </change>
+        </revisiondesc>
+    </eadheader>
+    <frontmatter>
+        <div>
+            <head>Les producteurs</head>
+            <p>Ce fonds d’archives correspond à la production des archives papier de la famille Seguin sur trois générations différentes. Il s’agit de la génération de Marc Seguin (1786-1875), considérée ici comme la première génération, de celle de ses enfants, en particulier du premier fils de son deuxième mariage, Augustin Seguin (1841-1904), qui a longtemps séjourné à Varagnes à partir des années 1890 puis celle de Louis et Laurent Seguin, concernant principalement leur implication dans la société Gnome-Rhône (1895-années 1920).</p>
+            <p>Cependant, d’autres producteurs sont aussi concernés par les archives de ce fonds. La famille Seguin a évolué dans un contexte professionnel et privé d’interdépendance et de soutien entre grandes familles, notamment annonnéennes. Il en est ainsi des archives des Duret, des Chomel, des Montgolfier mais également d’un sous-fonds conséquent dédié à la famille Mangini.</p>
+            <p>Des personnes morales (entreprises, sociétés, etc.) productrices d’archives peuvent aussi être étudiées au travers de ce fonds, du fait de la participation parfois de premier plan d’un Seguin à leur gestion. En ce sens, des archives issues des papeteries de Vidalon, de Montbard, des chantiers de la Buire (ainsi qu’un certain nombre de sociétés qui leur étaient attachées) et de Gnome-Rhône apparaissent dans ce fonds, et illustrent des aspects historiques dépassant la seule intervention des Seguin au sein de ces sociétés.</p>
+        </div>
+        <div>
+            <head>Datation</head>
+            <p>Il s’agit principalement d’un fonds centré sur l’ensemble d’un long XIXe siècle, jusqu’aux alentours de 1918. Cependant, des archives familiales issues du siècle précédent semblent avoir été conservées, du fait des héritages et de la nécessité de conserver certaines informations notamment notariales. Signalons le Recueil manuscrit de cours reçu à Paris par Pierre Chomel datant de 1728, qui semble être l’archive manuscrite la plus ancienne.</p>
+        </div>
+        <div>
+            <head>Lieu</head>
+            <p>Les archives constituées à Varagnes sont difficilement isolables de l'identité du lieu qui les conserve, lieu dédié à la recherche et à la prospective par Marc Seguin. En effet, Marc Seguin vient s’installer à Varagnes au début des années 1860, emportant avec lui sa bibliothèque mais aussi une partie de ses archives personnelles. Depuis, le domaine de Varagnes est resté en possession de la famille. Certains membres l’ont occupé de manière continue pendant une période de leur vie, ce qui a engendré la production d’archives sur place, notamment concernant la gestion de la vie quotidienne du domaines (carnets de comptes, factures de dépenses, etc.).</p>
+            <p>Le domaine de Varagnes ne représente pas seulement un lieu de production, de stockage et, maintenant, de conservation du fonds : le lien entre les archives et ce lieu est plus intriqué. Tout d’abord, une partie des archives inventoriées renseigne l'histoire de ce lieu, notamment d’un point de vue architectural. La conception de Varagnes est due à Marc Seguin et à ses fils, notamment Joseph qui était architecte. La part active de décisions de la famille dans la transformation matérielle des lieux a engendré la production d’archives qui permettent aujourd’hui de la retracer : les carnets de suivi des travaux de Marc Seguin, le fonds d’architecte de Joseph Seguin, les nombreux plans dessinés par Marc et Joseph, les photographies et tirages cartonnés permettant de renseigner les productions artistiques d’Augustin Seguin sont autant d’exemples. Les archives sont de ce fait d’une grande richesse pour l’étude de l’histoire architecturale et matérielle du domaine où elles sont conservées.</p>
+            <p>Les bâtiments offrent également un aperçu non seulement de l’inventivité architecturale et mobilière des Seguin mais aussi de leur volonté de disposer d’un lieu dans lequel continuer à innover, s’informer, faire de la prospective scientifique et technique. Or, les archives renseignent, là encore, cette démarche si particulière en renfermant des informations diverses, précieuses et jusqu’à maintenant quasiment jamais exploitées sur les instruments scientifiques, les outils pédagogiques et de monstration, les objets artistiques et de culte encore aujourd’hui conservés au domaine de Varagnes. Nous signalons plus précisément en ce sens les archives de recherche scientifique et technique de chaque génération, mais aussi la correspondance et le sous-fonds des factures qui, malgré son apparente monotonie, peut permettre d’identifier la date d’achat, le prix de vente, le fournisseur, éventuellement le réparateur de ces objets. Pour les objets de culte, on pourra se référer au dossier concernant l’histoire de la chapelle, ainsi que les travaux sur le mobilier de Joseph.</p>
+            <p>Enfin, ce fonds d’archives ne porte pas exclusivement sur le domaine de Varagnes lui-même. Elles peuvent renseigner directement ou indirectement la vie locale, lyonnaise mais surtout annonnéenne. En ce sens, le sous- fonds des factures permet d’étudier l’activité commerciale et artisanale de Lyon et d’Annonay ; les archives notariales permettent d’établir les possessions terriennes et transactions immobilières des Seguin, dans les alentours d’Annonay notamment ; un sous-fonds est dédié à la vie locale (élections, financement d’infrastructures publiques, construction d’oeuvres de charité, etc.) à laquelle les Seguin ont pu participer ou s’intéresser. Le sous-fonds sur la célébration de la famille permet d’étudier les manifestations locales mémorielles.</p>
+        </div>
+        <div>
+            <head>Nature archivistique de ce fonds</head>
+            <p>Le fonds Seguin de Varagnes est avant tout défini comme un fonds d’archives privées familial. Il se compose en effet pour une part majoritaire de correspondances familiales, de documents du quotidien, d’archives notariales et juridiques, ainsi que de factures des dépenses familiales. Ce type d’archives est avant tout rassemblé dans les boîtes A1 à A5 et B1 à B4, puis B13 à B18.</p>
+            <div>
+                <head>1. Des archives de famille</head>
+                <p>La majorité des archives correspond à la production de documents issus de la vie familiale, principalement des deux premières générations impliquées dans la gestion du domaine de Varagnes.</p>
+                <div>
+                    <head>La correspondance</head>
+                    <p>La correspondance vient en premier lieu et semble la plus massive en termes de volumétrie. Elle est assez inégale et comporte rarement une correspondance active et passive entre deux même interlocuteurs, qui permettrait de retracer la totalité des échanges.</p>
+                    <p>Plusieurs strates de correspondance sont discernables :</p>
+                    <list>
+                        <item>
+                           La correspondance de Marc Seguin avec sa famille et des membres entre eux est pour partie inventoriée à la pièce. Elle s’apparente à une correspondance d’échanges de nouvelles familiales, notamment lors des périodes de pensionnat des jeunes enfants, du départ des filles pour leur mariage, des voyages d’affaires ou d’agrément.<lb/>
+                            Cependant, on peut noter le nombre très limité de lettres « d’affaires » datant de la période de travail industriel de Marc Seguin (antérieure aux années 1860), plutôt centralisées par Camille Seguin, aujourd’hui consultables dans le fonds 41J des Archives départementales d’Ardèche.
+                        </item>
+                        <item>
+                           Au contraire, la correspondance d’Augustin lors de sa présidence au Conseil des chantiers la Buire est fournie et peu exploitée.
+                        </item>
+                        <item>
+                           La correspondance entre Pauline, Augustin et leurs enfants est également très fournie. Elle a été décrite en lot
+                        </item>
+                        <item>
+                            La correspondance du fonds Laurent et Louis Seguin semble moins développée et porte principalement sur les affaires de Gnome-Rhone.
+                        </item>
+                        <item>
+                           Le sous-fonds consacré aux Mangini, puissante famille industrielle lyonnaise , d’origine italienne, regroupe une très vaste correspondance relative aux échanges de Paula Mangini, née Seguin, mais aussi aux échanges des autres membres de la famille Mangini entre eux ou avec des correspondants extérieurs, dont certains sont intéressants pour étudier les affaires des Mangini dans les forges et les chemins de fer.
+                        </item>
+                        <item>
+                           La correspondance représente également une source importante pour étudier des aspects plus méconnus de la vie familiale des Seguin, notamment la place des femmes, ainsi que les déplacements géographiques des différents membres.
+                        </item>
+                        <item>
+                           Signalons particulièrement la correspondance de formation et de conseils de Marc Seguin à son fils Augustin Seguin lorsque ce dernier est jeune adulte (A2bis.1.1).
+                           Signalons également la correspondance de Pauline et de ses enfants datant de la première guerre mondiale qui n'a jamais été exploitée (B13 à B18).
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>Les archives de gestion quotidienne et d’événements familiaux</head>
+                    <p>Ces archives de vie quotidienne se composent d’une très grande variété de documents autres que de la correspondance. Elles ont été rassemblées en divers grands types d’archives renseignant l’histoire événementielle et de gestion quotidienne familiale :</p>
+                    <list>
+                        <defitem>
+                            <label>Les archives notariales et juridiques</label>
+                            <item>Il s’agit en priorité d’actes notariés de possession foncière et immobilière, d’actes de succession, de testaments. <lb/>
+                                Signalons une copie du testament olographe de Marc Seguin (A1.1.7).</item>
+                        </defitem>
+                        <defitem>
+                            <label>Les archives de gestion des ménages</label>
+                            <item>Ces archives prennent souvent la forme de recueils de comptes de dépenses, tenus quotidiennement. Il s’agit également d’inventaires mobiliers. Ce sont plutôt des « archives de femmes », si ce n’est la dizaine de carnets de dépenses tenus par Marc Seguin entre 1813 et 1874 (Voir la boîte A4). D’autres archives de gestion sont notables : la correspondance d’Augustin Seguin avec son notaire, ainsi que la documentation autour de ses multiples assurances-vie (voir B1.4 et B1.5).<lb/>
+                                Ces archives peuvent être complétées par le sous-fonds de factures.                                
+                            </item>
+                        </defitem>
+                        <defitem>
+                            <label>Les archives de charité</label>
+                            <item>Il s’agit principalement de carnets de compte des aumônes distribuées.<lb/>
+                                Pour étudier la charité des Seguin, voir également :
+                                <list>
+                                    <item>la correspondance : lettres de certains des pauvres aidés par les Seguin à leurs bienfaiteurs de remerciements ou d’exigences</item>
+                                    <item>archives d’architecture pour étudier les fondations pieuses (hôpitaux,  couvents, etc.) fondées et financées par les Seguin</item>
+                                    <item>la catégorie « charité » de certaines factures</item>
+                                </list>
+                            </item>
+                        </defitem>
+                        <defitem>
+                            <label>Les archives scolaires</label>
+                            <item>Il s'agit des bulletins, de cartes de bons points reçus comme récompenses scolaires, de notes de cours, de documents administratifs sur les différentes écoles fréquentées par les enfants de Marc et d’Augustin Seguin.<lb/>
+                                Signalons le sous-dossier très complet consacré au baccalauréat d’Augustin Seguin (A2bis.5.2).</item>
+                        </defitem>
+                        <defitem>
+                            <label>Les archives événementielles</label>
+                            <item>Il s'agit d’archives diverses liées à des événements familiaux. Elles peuvent prendre des formes diverses : cartes de visites, images de communion, invitation à des mariages, menus, poèmes, cartes postales, etc.
+                            </item>
+                        </defitem>
+                        <defitem>
+                            <label>Les factures</label>
+                            <item>Le sous-fonds de factures est très cohérent et d’une masse non-négligeable.<lb/>
+                                Il concerne trois périodes différentes :
+                                <list>
+                                    <item>La période de 1860-1875 issue de l’installation de Marc Seguin à Varagnes permet notamment d’étudier les diverses phases de travaux et de constructions que mène alors Marc Seguin avec ses fils, en complémentarité des recueils de suivi des travaux et constructions.</item>
+                                    <item>-Les factures de la période 1889-1904 permettent d’étudier les dépenses quotidiennes du ménage d’Augustin à la fin de sa vie avec sa dernière épouse Pauline Seguin. Un tableau d’inventaire leur a été spécifiquement dédié, avec description à la pièce et très précise, afin de pouvoir établir des statistiques après exploitation de cette base de données.</item>
+                                    <item>-Les factures de la période 1914-1918 permettent d’étudier les dépenses pendant la Première Guerre Mondiale des membres de la famille restés à Varagnes.</item>
+                                </list>
+                                Il bénéficie d’un inventaire en propre au vu de la nature particulière de ces archives.</item>
+                        </defitem>
+                    </list>
+                </div>
+                
+            </div>
+            <div>
+                <head>2. Les archives industrielles et les archives de travail scientifique</head>
+                <p>Ces deux types d’archives peuvent sembler très proches à première vue car les recherches scientifiques des Seguin se sont toujours réalisées dans le cadre d’une science appliquée, avec un recours original et très fréquent à l’expérimentation et au prototypage. Cependant, ce fonds d’archives a la particularité de permettre de distinguer les recherches purement scientifiques de celles liées plus étroitement au métier d’industriels et d’ingénieurs de chaque génération Seguin.</p>
+                <p>La distinction de ces deux catégories d’archives ne réside pas dans leur destination industrielle ou appliquée mais dans le contexte de production de ces documents. Lorsqu’ils ont été produits au coeur de l’activité d’un Seguin dans une entreprise, c’est-à-dire produites dans un cadre professionnel d’administrateur, de sociétaire ou d’entrepreneur, les documents ont été inventoriés comme des « archives industrielles ». Lorsqu’ils ont été produits dans le cadre de recherches appliquées ne découlant pas directement de l’activité professionnelle des Seguin, les documents ont été inventoriés comme des « archives scientifiques ». L’historien qui les consulte et les confronte ne peut cependant lire les unes sans les mettre en relation étroite avec les autres.</p>
+                <p>Cette césure ne s’explique cependant pas de la même manière au travers des trois générations :</p>
+                <list>
+                    <defitem>
+                        <label>Concernant la génération de Marc Seguin :</label>
+                        <item>Il commence ses recherches très jeune, dès son retour de Paris, en 1803, et les poursuit en parallèle de ses activités industrielles avec ses frères.<lb/>
+                            Nous pouvons signaler, dans ce sous-fonds :
+                            <list>
+                                <item>Les recueils de mémoires : ensembles de 6 recueils composés et reliés par Marc Seguin en prévision de son déménagement de Fontenay à Varagnes pour rassembler les imprimés et notes manuscrites dont il avait besoin pour travailler (A7 à A9).</item>
+                                <item>Journaux de laboratoire : celui de Marc Seguin, ouvert dès son retour de ses études parisiennes, est largement étudié par Michel Cotte. Celui d’Augustin Seguin est moins connu (A6).</item>
+                            </list>
+                            Le fonds de Varagnes contient des archives de recherches de Marc Seguin antérieures à son installation au domaine, y compris celles produites à Fontenay, ainsi que celles postérieures à 1860. Il délaisse alors de plus en plus l’activité entrepreneuriale. Dans ce cadre, il continue de suivre l’activité scientifique et industrielle du monde (ce dont témoigne la pièce de la Bibliothèque scientifique de Varagnes), fait parfois des recherches personnelles et de la prospective en matière d’innovation, parfois suivie de prototypage. Les dossiers, plans, descriptions écrites et notes de calculs témoignent de ces activités.<lb/> 
+                            Signalons par exemple le dossier portant sur le chemin de fer atmosphérique, projet novateur qui n’a jamais vu le jour (A16.1).<lb/>
+                            Outre ce type de recherches et de prospectives, Marc Seguin se consacre à la transmission et à la vulgarisation par le biais de la rédaction de nombreux ouvrages, notamment de pédagogie scientifique. Le fonds de Varagnes abrite les minutes de rédaction ainsi que les épreuves corrigées manuellement de nombre de ses ouvrages. Les traces de son rôle de rédacteur principal (à partir de 1868) du Cosmos sont également visibles.<lb/>
+                            Les archives dites ici industrielles, c’est-à-dire exclusivement liées aux activités d’ingénieur et aux entreprises des frères Seguin, sont relativement rares, en comparaison au fonds 41J (aux AD07). Elles se composent de lettres d’affaires de Marc Seguin avec son réseau parisien, de ses plans et prospectives d’infrastructures et de mécaniques (ponts, chemins de fer, chaudière, etc.)</item>
+                    </defitem>
+                    <defitem>
+                        <label>Concernant la génération d’Augustin Seguin :</label>
+                        <item>Les archives considérées comme industrielles sont beaucoup plus développées et moins bien connues que celles de Marc Seguin. Il s’agit des archives issues de l’implication d’Augustin Seguin dans diverses sociétés et entreprises (papeteries de Montbard, papeteries de Vidalon, Chantiers de la Buire). <lb/>
+                            Les archives de recherches dites « scientifiques » d’Augustin Seguin représentent les documents issus des expérimentations et résultats qu’il commence tôt (1859-1863), auprès de son père, comme en témoigne son Journal de laboratoire, commencé sur le modèle de celui de Marc Seguin. Plus tardivement, ses recherches portent sur la vapeur surchauffée (sujet également abordé par Marc Seguin), les gazogènes et les aimants1. Cependant, la distinction vis-à-vis de l’exploitation industrielle de ces recherches-ci est moins évidente étant donné que certaines de ces recherches ont eu une application industrielle directe. A noter que certaines d’entre elles ont été menées dans les ateliers d’expériences de la Buire (c’est le cas des recherches mentionnées dans les sous-dossiers « Fours » et « Essais de fer »)</item>
+                    </defitem>
+                    <defitem>
+                        <label>Concernant la génération de Louis et Laurent Seguin :</label>
+                        <item>Les archives de cette génération sont principalement des archives industrielles issues de plusieurs sociétés différentes. Ce fonds est relativement peu volumineux et ne permet pas d’embrasser avec précision l’histoire de ces diverses sociétés mais peut donner une idée initiale de l’investissement des Seguin dans ces entreprises.<lb/>
+                            Ce sous-fonds se compose :
+                            <list>
+                                <item>Des archives de la société Gnome-Rhone initialement fondée sous le nom "Gnome" par Louis Seguin qui construisit d'abord des moteurs fixes industriels sous licence Gnome puis se lança dans la production de moteurs d’avion. Il comprend un ensemble de revues, articles et publications sur la société GR. Le fonds d’archives de la société Safran est très certainement plus fourni, même si certaines archives de Louis Seguin sont actuellement conservées par une autre partie de la famille Seguin.</item>
+                                <item>Des dossiers de recherches en mécanique et physique, correspondant surtout à un ensemble de documentation autour de l’activité de Laurent et d’Augustin, fils d’Augustin (dit Tintin ), sur le stroborama, ancêtre du flash.</item>
+                                <item>Des archives de la société des Fonderies de Cuivre de Lyon et Cie, devenue ensuite Seguin Frères comprenant des documents de gestion (statuts, rapports) et de la documentation à propos de la société. Cette société, acquise par Louis Seguin et appartenant préalablement à sa belle famille (Franc), fit partie de groupe Gnome et Rhône avant d'être cédée à Amédée Seguin, fils de Louis. </item>
+                                <item>Des archives de la société SIGMA comprenant des dossiers de notes sur divers événements de la société, de la correspondance d’affaires, des photographies, des notes sur l’histoire de la société. Laurent Seguin a joué un rôle important dans cette société de production de moteurs d’avion. </item>
+                                <item>Des dossiers sur les moteurs industriels, les automobiles, les motocyclettes et les cartes routières représentent des archives de documentation.</item>
+                            </list></item>
+                    </defitem>
+                </list>
+            </div>
+            <div>
+                <head>3. Les archives d’architecture, de construction et de vie locale</head>
+                <p>Cet ensemble est composé tout d’abord du fonds d’architecte de Joseph Seguin (1829-1866), fils de Marc Seguin (premier lit avec Rose Augustine Seguin, née Duret) qui a oeuvré à l’aménagement architectural mais aussi mobilier de Varagnes avec son père. Il permet de découvrir également les projets que Joseph a menés dans le paysage local, notamment en termes de chapelles, églises et bâtiments religieux de la région.</p>
+                <p>Les recueils de suivi des travaux et constructions, portant notamment sur la construction d’une fabrique (à identifier) (1811-1826), sur les travaux du domaine de Varagnes (1860-1875), notamment suivis par le contremaître Henri Gauthier, permettent une approche approfondie et peu exploitée encore de l’histoire des bâtiments, des décors et aménagements du domaine, ainsi que l’étude des autres projets immobiliers (hôpital de la Convalescence, etc.) des Seguin. Ces recueils présentent un niveau de détail au jour près des noms, tâches, rémunérations des ouvriers employés par les Seguin sur de nombreux sites de construction.</p>
+                <p>Un carton concernant les archives rassemblées par les Seguin sur la vie locale permet le suivi des élections, des grands travaux annonnéens que suivaient les Seguin, en tant que notables locaux, mais aussi des fréquents intérêts et investissements qu’ils y avaient.</p>
+            </div>
+            <div>
+                <head>4. Les archives de commémoration</head>
+                <p>Ce pan des archives représente l’une des particularités unique du fonds de Varagnes. Il rassemble les témoignages que les Seguin, les autorités ainsi que divers acteurs ont pu témoigner à l’égard de la mémoire de Marc Seguin, mais aussi des familles Seguin et Montgolfier. </p>
+                <p>Ces archives rassemblent différents documents de reconnaissance de Marc Seguin de son vivant : il s’agit des diplômes de nomination dans différentes institutions, différents vers d’hommages de Marc Seguin.</p>
+                <p>Cet ensemble permet de se rendre compte de la précocité des événements de commémoration envers Marc Seguin : ensemble de célébrations à sa mort, rédactions d’ouvrages et de thèses à son propos mais aussi grands événements tels que le centenaire Montgolfier (1883), le centenaire Marc Seguin (1886), le cinquentenaire du chemin de fer (1887), l’édification de la statue de Marc Seguin (1913), le centenaire de 1923. Ces archives permettent de se rendre compte de la diversité des documents produits pour animer et diffuser ces événements (affiches, cartons d’invitation, lettres d’annonces, etc.), mais aussi ceux conçus pour commémorer ces événements (carnets de coupures de journaux consacrés à ces événements).</p>
+                <p>Signalons également une boîte dédiée aux archives de l’historien Michel Cotte rassemblées lors de ses recherches de thèse « Innovation et transfert de technologies : le cas des entreprises de Marc Seguin, France, 1815-1835 » et déposées à Varagnes.</p>               
+            </div>
+        </div>
+    </frontmatter>
+    
+    <archdesc level="fonds">
+        <did>
+            <unitdate>XIXe-XXe siècle</unitdate>
+            <unittitle>Archives de la Famille Seguin</unittitle>
+            <physdesc>
+                <extent>66 boites</extent>
+            </physdesc>
+            <origination>
+                <persname>Seguin, Marc (1786-1875)</persname>
+            </origination>
+            <langmaterial>
+                <language langcode="fre"></language>
+            </langmaterial>
+            <repository>
+                <corpname>Association des Amis de la Fondation Seguin</corpname>
+            </repository>
+            <physloc>Domaine de Varagnes, Annonay, France</physloc>
+        </did>
+
+        
+        <custodhist>
+            <p>Ces archives se sont constituées par accumulations successives, dans diverses parties du domaine de Varagnes.</p>
+            <p>Ce fonds a donc connu des interventions de pré-classement. De ce fait, des tris, des déplacements et des éliminations non renseignés ont eu lieu ; il est difficile d’en retracer le fil dans la plupart des cas. Cela explique que le fonds de Varagnes comporte nécessairement des lacunes. Cela explique qu’il soit nécessaire de prendre en compte l’existence d’autres fonds en possession d’autres branches de la famille, ainsi que ceux conservés en services d’archives publiques pour accéder à des informations moins lacunaires. Cependant, les pré-classements réalisés par les producteurs dans leurs propres archives ou dans les archives de leurs aïeux ont été respectés afin de sauvegarder les marques de tris préalables.</p>
+            <p>Il faut noter cependant une particularité : la valeur de ces documents a été perçue tôt par différents membres de la famille et des processus de sauvegarde, de retranscription, de protection ont été régulièrement entrepris, parfois dans le cadre de travaux de recherche historique motivés par le goût personnel pour l’histoire de certains membres de la famille ; ces processus aussi sont peu renseignés mais ont favorisé la sauvegarde d’un nombre non-négligeable d’archives, ainsi que la production de pré-inventaires sur lesquels on a parfois pu s’appuyer.</p>
+            <p>Ainsi, les différentes strates d’archives ont connu des classements réalisés de manière certaine par Marc Seguin, puis Augustin Seguin et Pauline Seguin (la dernière femme d'Augustin), dans le cadre cependant d’une gestion quotidienne des documents, sans forcément de volonté de conservation à long terme. Par la suite, il est difficile d’établir la manière dont ces archives ont été considérées et conservées. On peut souligner l’investissement de François et Anne de Quirielle pour sauvegarder une partie des archives entreposées dans la serre quand celles-ci étaient en mauvais état. Elles ont ensuite été ramenées à Varagnes par Valérie et Jean-Marc Lefèvre, puis entreposées dans la pièce de la bibliothèque scientifique au premier étage de la future fondation. D’autres archives étaient également entreposées dans le « bureau de Marc Seguin », ainsi que dans le « salon rouge », et pré-triées et renseignées pour partie par Jean-Marc et Valérie Lefèvre.</p>
+        </custodhist>
+        
+        <arrangement>
+            <p>En 2019, un premier projet d’inventaire systématique a été assuré par Baptiste Milaneschi sur la majeure partie du fonds conservé dans la bibliothèque scientifique. Ce travail a été poursuivi à partir de septembre 2021 jusqu’en décembre 2021 par Lisa Lafontaine, dans le cadre d’un mécénat de la part du service d’archives de l’entreprise Saint-Gobain. </p>
+            <p>De nombreuses personnes ont également prêté main forte pour le classement de ce fonds de manière régulière : nous citerons Xavier Passot sur les archives de Pauline Seguin des années 1914-1918, Marie-Françoise Crouch pour le fonds de carte en rouleaux, la transcription d’une partie des recueils de travaux de Marc Seguin ainsi que pour le fonds de factures d’Augustin Seguin.</p>
+            <list>
+                <defitem>
+                    <label>1. Principes de classement</label>
+                    <item>Sur le modèle proposé par Baptiste Milaneschi, la description a été majoritairement entreprise à la pièce. Ce type de classement est relativement rare mais vise à fournir une notice individuelle pour chaque document décrit en vue d’une numérisation complète à la pièce des fonds. Ce type de classement a été quasi systématiquement appliqué aux archives de la génération de Marc Seguin, ainsi que de plus de la moitié du fonds de la génération d’Augustin Seguin.<lb/>
+                        Une partie du fonds n’a pu être décrite qu’à un niveau plus haut (au dossier, sous-dossier ou sous-sous-dossier), pour des raisons de temps, ou pour des questions de nature des documents (minutes non numérotées ni datées). L’affinement de l’inventaire à la pièce de ces parties pourra être envisagé à terme, notamment dans une optique de numérisation de masse. <lb/>
+                        Cette description a majoritairement suivi l’ordre indiqué par les pré-classements successifs. Néanmoins, le travail d’inventaire systématique pris en charge par Baptiste Milaneschi puis Lisa Lafontaine a permis d’identifier la nature et la composition des fonds dans leur ensemble, d’obtenir donc une vue globale ainsi que la mesure de la diversité des archives de Varagnes produites de l’ensemble de la famille Seguin, au-delà de la seule figure de Marc Seguin. <lb/>
+                        Grâce à cette nouvelle vue d’ensemble et au traitement d’inventaire et de conditionnement physique homogénéisé, il a été possible d’établir un plan de classement général reposant sur de grandes thématiques liées à la nature des archives, elles-mêmes divisées par génération. Sans que cela n'altère l’archéologie interne des dossiers pré-classés, cette réorganisation de l’inventaire et des grands ensembles d’archives physiques par branches permet de rassembler les archives, tout en les structurant d’une manière inédite. </item>
+                </defitem>
+                <defitem>
+                    <label>2. Identification des pièces</label>
+                    <item>Il s'agissait de les identifier principalement par :
+                        <list>
+                            <item>Titre de la pièce : si la pièce porte un titre en évidence écrit sur le document, il est reproduit à l’identique. Il ne s’agit pas pour l’archiviste de rajouter ou de donner un titre à une pièce qui n’en porterait pas. Cette case n’est donc pas remplie systématiquement. Ex : dans le cas d’une lettre, les premiers mots de la lettre ne sont pas reportés en guise de titre, la « Description », la date ou la numérotation permettent le cas échéant de relier la pièce à sa mention dans l’inventaire.</item>
+                            <item>Description : la description représente une courte synthèse du document, du propos contenu ou de description visuelle permettant d’identifier ou de renseigner précisément la pièce d’archives.</item>
+                            <item>Date : la date est établie en reprenant précisément celle qui est inscrite sur le document. Dans les titres des différents niveaux (i.e. dossiers, sous-dossiers, etc.), elle ne correspond pas à une période historique de contexte mais représente les deux dates les plus extrêmes explicitement mentionnées par les documents ; certains documents compris dans le dossier peuvent avoir été produits hors de cet intervalle temporel mais l’absence de mention de dates empêchent de le savoir. Les dates indiquées ne sont donc pas une fin en soi mais une indication des mentions explicites des documents. Elles ne donnent donc pas obligatoirement d’indication sur la période historique d’un événement donc traitent les archives.</item>
+                            <item>Lieu : il s’agit du lieu de production de l’archives, s’il est mentionné sur le document. Dans le cas de la correspondance, il permet d’établir d’où écrit l’auteur de la lettre. Dans le cas d’une monographie ou d’un imprimé, il s’agit de la ville d’impression.</item>
+                            <item>Auteur : il s’agit du producteur de l’archive et non nécessairement des acteurs concernés par les faits évoqués par l’archive.</item>
+                            <item>Destinataire /Imprimeur : il s’agit du destinataire de l’archive et non nécessairement des acteurs concernés par les faits évoqués par l’archive. Dans le cas d’une monographie, c’est l’imprimeur qui est renseigné dans cet onglet.</item>
+                        </list>
+                    </item>
+                </defitem>
+                <defitem>
+                    <label>3. Établir la hiérarchie de classement :</label>
+                    <item>Il s’agissait de hiérarchiser les pièces en sous-dossiers et dossiers, eux-mêmes contenus dans des boîtes. La répartition physique des pièces en sous-dossiers et dossiers respecte quasi-systématiquement la formation préalable des ensembles d’archives (pas de restructuration ex nihilo des ensembles). <lb/>
+                        Au sein d’un même dossier, les pièces peuvent avoir été rangées par ordre chronologique ou ordre de numérotation, qui a alors été reporté au crayon à papier sur le document de manière discrète. Il est important de ne pas mélanger l’ordre des pièces au sein des dossiers et sous-dossiers, encore moins entre dossiers et sous-dossiers, au risque de fausser l’inventaire et d’empêcher toute identification des pièces à partir de l’inventaire.  <lb/>
+                        Précisons que la cotation est significative. Tout d’abord, la première lettre utilisée pour la cote de la boîte est A ou B : les cotes de boîtes commençant par A désigne les archives correspondant à la génération de Marc Seguin, tandis que les B correspondent aux archives de la génération d’Augustin. Le numéro accolé à cette lettre désigne ensuite le numéro de la boîte correspondant. Les chiffres suivants séparés par un point de la cote de la boîte correspondent au dossier puis au sous-dossier, tandis que la désignation du sous-sous-dossier contenant la pièce décrite est désigné en dernier par une lettre par ordre alphabétique, séparée d’un point des numéros de dossier et sous-dossier antérieurs.<lb/>
+                        Ainsi : A13.1.2.c correspondrait à une archive contenue dans la boîte 13 des archives de la génération de Marc Seguin (A), contenue dans le dossier 1 puis sous-dossier 2 puis sous-sous-dossier c.</item>
+                </defitem>
+                <defitem>
+                    <label>4. Conditionner physiquement les archives</label>
+                    <item>Le conditionnement physique des archives de Varagnes a consisté à faire en sorte que :
+                        <list>
+                            <item>elles soient classées physiquement selon la même hiérarchie que celle indiquée dans l’inventaire,</item>
+                            <item>chaque niveau soit matériellement indiqué par une enveloppe ou une pochette en papier crystal ou papier craft neutre sur laquelle le titre du niveau est écrit explicitement, suivi des dates extrêmes des archives continues,</item>
+                            <item>de protéger les archives des contenants préalablement présents,</item>
+                            <item>de protéger les contenants préalablement présents et systématiquement gardés,</item>
+                            <item>de disposer les différentes unités d’archives dans des boîtes Cauchard homologues, </item>
+                            <item>d’organiser physiquement la disposition des boîtes dans les différents sites de conservation.</item>
+                        </list>
+                    </item>
+                </defitem>
+            </list>
+        </arrangement>
+        <bibliography>
+            <head>Quelques références bibliographiques</head>
+            <p>Diverses personnes et institutions ont déjà produit des travaux en s’appuyant sur des archives issues de la famille Seguin ou des familles environnantes. Nous citerons ici de manière non exhaustives quelques fonds d’archives et travaux en lien avec ces archives qui s’avèrent complémentaires du fonds de Varagnes </p>
+            <list>
+                <item>Les travaux de Michel Cotte, en premier lieu sa thèse de doctorat intitulée « Innovation et transfert de technologies : le cas des entreprises de Marc Seguin, France, 1815-1835 » qui exploite majoritairement les archives du fonds 41J mais aussi quelques documents issus du fonds de Varagnes non-classé.</item>
+                <item>Les travaux de Marie-Hélène Reynaud à propos des Montgolfier peuvent également être rattachés à l’étude des Seguin du fait de leur usage des archives familiales et entrepreneuriales des Montgolfier et des familles attenantes.</item>
+            </list>
+        </bibliography>
+        <relatedmaterial>
+            <head>Quelques fonds d’archives complémentaires</head>
+            <archref>
+                <repository>Service historique de la Défense :</repository>
+                Les travaux de Xavier Passot portent sur la transcription de la correspondance entre Rose et Marcel Bechetoille ainsi que la numérisation de films et plaques de verre de familles, et d’aviation dont une partie a été déposée au Service historique de la Défense, sous la cote "fonds Passot-Seguin" déposé en 2007.
+            </archref>
+            <archref href="https://archives.ardeche.fr/data/files/cd07.diffusion/images/FRAD007_EGF/41J.pdf">
+                <repository>Archives départementales de l'Ardèche:</repository>
+                <unitid>41J</unitid>
+                Le fonds 41J déposé aux Archives départementales de l’Ardèche (Privas) de la famille Seguin, plus précisément issu des archives de Camille Seguin, porte majoritairement sur les entreprises des frères Seguin. Il a été déposé aux AD07 par Stanislas Seguin et un répertoire numérique en a été produit en 2000 par Jean-Marie Pons. Il représente le fonds le plus riche et le plus complémentaire se celui du domaine de Varagnes.
+            </archref>
+            <p>D'autres fonds d'archives sont susceptibles d'apporter des compléments concernant divers membres de la famille Seguin, ainsi que leurs activités. Cependant, il ne s'agit que de pistes indicatives et non de fonds précis référencés :</p>
+            <list>
+                <defitem>
+                    <label>Archives municipales :</label>
+                    <item>Concernant la vie locale, les archives municipales de la ville d'Annonay, les archives départementales de l'Ardèche, les archives diocésaines peuvent également se révéler intéressantes.</item>
+                </defitem>
+                <defitem>
+                    <label>Archives privées d’entreprises :</label>
+                    <item>
+                        <list>
+                            <item>Les archives de la société Safran, héritière des différentes formes empruntées par Gnôme-Rhone, peuvent apporter des informations à propos des activités aviatrices de la 3e génération des Seguin.</item>
+                            <item>Les archives de la SNCF peuvent également comporter des informations relatives aux activités ferroviaires des Seguin (Voir le Centre des archives historiques de la SNCF.)</item>
+                        </list>
+                    </item>
+                </defitem>
+                <defitem>
+                    <label>Archives privées de particuliers :</label>
+                    <item>
+                        <list>
+                            <item>Il est probable que d’autres archives existent à l’Abbaye de Fontenay sur la période 1835-1860 durant laquelle il a vécu dans ce lieu.</item>
+                            <item>A noter également les archives familiales Montgolfier se trouvant à St Marcel les Annonay qui devraient éclairer les relations entre Marc Seguin et Joseph de Montgolfier quand elles seront inventoriées.</item>
+                        </list>
+                    </item>
+                </defitem>
+            </list>
+        </relatedmaterial>
+        <scopecontent>
+            <table>
+                <tgroup cols="4">
+                    <colspec colnum="0" colname="0" align="center" colwidth="25*"/>
+                    <colspec colnum="1" colname="1" align="center" colwidth="25*"/>
+                    <colspec colnum="2" colname="2" align="center" colwidth="25*"/>
+                    <colspec colnum="3" colname="3" align="center" colwidth="25*"/>                    
+                    <thead>
+                        <row>
+                            <entry colname="0">Sous-fonds</entry>
+                            <entry colname="1">Nature de l'archive</entry>
+                            <entry colname="2">Cote de la boîte</entry>
+                            <entry colname="3">Nom de la boîte</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">A1</entry>
+                            <entry colname="3">Archives juridiques et notariales Marc et Augustine Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">A2</entry>
+                            <entry colname="3">Correspondance familiale des Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">A2bis</entry>
+                            <entry colname="3">Archives scolaires et correspondance familiale</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">A3</entry>
+                            <entry colname="3">Archives scolaires</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">A4</entry>
+                            <entry colname="3">Archives de la vie familiale et de gestion de la maison</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives familiales</entry>
+                            <entry colname="2">A5</entry>
+                            <entry colname="3">Registres de comptes et de dépenses Fontenay et Varagnes</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A6</entry>
+                            <entry colname="3">Journaux de laboratoire</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A7</entry>
+                            <entry colname="3">Recueils de mémoires rassemblés par Marc Seguin lors de son déménagement de Fontenay vers Varagnes 1</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A8</entry>
+                            <entry colname="3">Recueils de mémoires rassemblés par Marc Seguin lors de son déménagement de Fontenay vers Varagnes 2</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A9</entry>
+                            <entry colname="3">Recueils de mémoires rassemblés par Marc Seguin lors de son déménagement de Fontenay vers Varagnes 3</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A10</entry>
+                            <entry colname="3">Notes de rédaction et épreuves corrigées manuellement du Cours élémentaires des sciences physiques et mathématiques 1</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A11</entry>
+                            <entry colname="3">Notes de rédaction et épreuves corrigées manuellement du Cours élémentaires des sciences physiques et mathématiques 2</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A12</entry>
+                            <entry colname="3">Notes de rédaction et épreuves corrigées manuellement du Cours élémentaires des sciences physiques et mathématiques 3</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A13</entry>
+                            <entry colname="3">Épreuves et notes de rédaction de l'ouvrage Considérations sur les causes de la cohésion...</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A14</entry>
+                            <entry colname="3">Archives de rédaction de divers ouvrages de Marc Seguin 1</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">A14bis</entry>
+                            <entry colname="3">Archives de rédaction de divers ouvrages de Marc Seguin 2</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">A15</entry>
+                            <entry colname="3">Divers projets industriels, mécaniques, de construction de Marc Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">A16</entry>
+                            <entry colname="3">Notes de travail sur les chemins de fer</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">A17</entry>
+                            <entry colname="3">Registres liés au chemin de fer de Saint-Etienne à Lyon</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives d'architecture et de travaux</entry>
+                            <entry colname="2">A18</entry>
+                            <entry colname="3">Architecture et vie locale</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives d'architecture et de travaux</entry>
+                            <entry colname="2">A19</entry>
+                            <entry colname="3">Archives de Joseph Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives d'architecture et de travaux</entry>
+                            <entry colname="2">A20</entry>
+                            <entry colname="3">Chantiers de construction et gestion des ouvriers 1</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives d'architecture et de travaux</entry>
+                            <entry colname="2">A20 (hors format boîte)</entry>
+                            <entry colname="3">Chantiers de construction et gestion des ouvriers 1</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives d'architecture et de travaux</entry>
+                            <entry colname="2">A21</entry>
+                            <entry colname="3">Chantiers de construction et gestion des ouvriers 2</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives de botanique</entry>
+                            <entry colname="2">A22</entry>
+                            <entry colname="3">Herbiers et archives de botaniques</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives d'astronomie et de météorologie</entry>
+                            <entry colname="2">A23</entry>
+                            <entry colname="3">Minutes d'observations astronomiques de Marc Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives d'astronomie et de météorologie</entry>
+                            <entry colname="2">A24</entry>
+                            <entry colname="3">Recueils d'observations astronomiques de Marc Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives d'astronomie et de météorologie</entry>
+                            <entry colname="2">A25</entry>
+                            <entry colname="3">Observations météorologiques en rouleaux</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A26</entry>
+                            <entry colname="3">Coupures de presse sur Augustin (petit-fils de Marc Seguin) et Gnome (1909)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A27</entry>
+                            <entry colname="3">Coupures de presse sur Augustin (petit-fils) et Gnome (mai 19010-novembre 1911)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A27</entry>
+                            <entry colname="3">Coupures de presse et journaux collectionnées par Pauline Seguin à propos des Seguin, de ses fils, de Gnome-Rhône 2</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A28</entry>
+                            <entry colname="3">Journaux entiers sur les Seguin (1911) rassemblés par Pauline Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A29</entry>
+                            <entry colname="3">Coupures de presse sur les Seguin (1912)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A29</entry>
+                            <entry colname="3">Coupures de presse sur Augustin Seguin (petit-fils), (1913)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A30</entry>
+                            <entry colname="3">Coupures de presse sur les Seguin (1914-1915-1916)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A31</entry>
+                            <entry colname="3">Coupures de presse sur les Seguin (1923)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A32</entry>
+                            <entry colname="3">Célébrations et hommages à Marc Seguin avant 1900 (1875-1900)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A32</entry>
+                            <entry colname="3">Ouvrage d'hommage à Marc Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A33</entry>
+                            <entry colname="3">Centenaire Montgolfier (1883)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A34</entry>
+                            <entry colname="3">Centenaire Marc Seguin (1886) et Cinquentenaire du chemin de fer (1887)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A35</entry>
+                            <entry colname="3">Édification de la statue de Marc Seguin en 1913 et Centenaire du premier chemin de fer français en 1923 (1913-1923)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A36</entry>
+                            <entry colname="3">Publications, célébrations, thèses sur Marc Seguin XXe siècle</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives de mémoire et de commémorations autour des Seguin</entry>
+                            <entry colname="2">A37</entry>
+                            <entry colname="3">Archives de Michel Cotte</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Bibliographie liée aux Seguin</entry>
+                            <entry colname="2">L1</entry>
+                            <entry colname="3">Ouvrages de Marc Seguin 1</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Bibliographie liée aux Seguin</entry>
+                            <entry colname="2">L2</entry>
+                            <entry colname="3">Ouvrages de Marc Seguin 2</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="0">Bibliographie liée aux Seguin</entry>
+                            <entry colname="2">L3</entry>
+                            <entry colname="3">Ouvrages de Marc Seguin 3</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Marc Seguin</entry>
+                            <entry colname="1" rowsep="1">Bibliographie liée aux Seguin</entry>
+                            <entry colname="2">L4</entry>
+                            <entry colname="3">Ouvrages sur Marc Seguin, ouvrages scolaires, contributions de Marc Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B1</entry>
+                            <entry colname="3">Divers documents personnels d'Augustin et de sa famille</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B2</entry>
+                            <entry colname="3">Voyages d'Augustin Seguin</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B3</entry>
+                            <entry colname="3">Archives liées aux enfants d'Augustin Seguin (1888-1914)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives familiales</entry>
+                            <entry colname="2">B4</entry>
+                            <entry colname="3">Monographies et catalogues</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">B5</entry>
+                            <entry colname="3">Rôle d'Augustin dans les papeteries de Montbard et Vidalon</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">B6</entry>
+                            <entry colname="3">Recherches d’Augustin sur les gazogènes, les aimants, les fours, les fers (1870-1890)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives de travail scientifiques et d'expérimentations</entry>
+                            <entry colname="2">B7</entry>
+                            <entry colname="3">Recherches d'Augustin Seguin sur la locomotive surchauffée</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">B8</entry>
+                            <entry colname="3">Documents et ouvrages liés à la Buire</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">B9</entry>
+                            <entry colname="3">Plans et iconographie sur la Buire</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">B10</entry>
+                            <entry colname="3">Produits de la Buire</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">B11</entry>
+                            <entry colname="3">Gestion de la Buire</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">B12</entry>
+                            <entry colname="3">Gestion des différentes composantes de la Buire et refondation de 1894</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B13</entry>
+                            <entry colname="3">Correspondance privée de la famille Mangini</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B14</entry>
+                            <entry colname="3">Correspondance d'affaires des Mangini</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B15</entry>
+                            <entry colname="3">Divers documents sur les Mangini</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B16</entry>
+                            <entry colname="3">Correspondance des membres de la famille Seguin (1880-1918)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="0">Archives familiales</entry>
+                            <entry colname="2">B17</entry>
+                            <entry colname="3">Correspondance de Pauline et de ses enfants avec des amis et diverses personnes</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Génération Augustin Seguin</entry>
+                            <entry colname="1" rowsep="1">Archives familiales</entry>
+                            <entry colname="2">B18</entry>
+                            <entry colname="3">Correspondance de guerre et cartes postales de Pauline et ses enfants</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Troisième génération</entry>
+                            <entry colname="1" rowsep="1">Archives industrielles et d'entreprises</entry>
+                            <entry colname="2">Archives non traitées</entry>
+                            <entry colname="3">Archives de Gnome-Rhône</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Factures</entry>
+                            <entry colname="1" rowsep="1">Factures de Marc Seguin</entry>
+                            <entry colname="2">F1</entry>
+                            <entry colname="3">Factures de Marc Seguin (1860-1872)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Factures</entry>
+                            <entry colname="1" rowsep="1">Factures de Marc Seguin</entry>
+                            <entry colname="2">F2</entry>
+                            <entry colname="3">Factures de Marc Seguin (1873-1875)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Factures</entry>
+                            <entry colname="1" rowsep="1">Factures de Pauline Seguin</entry>
+                            <entry colname="2">F3</entry>
+                            <entry colname="3">Factures de Pauline Seguin (1912-1920)</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Factures</entry>
+                            <entry colname="1" rowsep="1">Factures d'Augustin Seguin</entry>
+                            <entry colname="2">F4</entry>
+                            <entry colname="3">Factures d'Augustin Seguin 1889-1896</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Factures</entry>
+                            <entry colname="1" rowsep="1">Factures d'Augustin Seguin</entry>
+                            <entry colname="2">F5</entry>
+                            <entry colname="3">Factures d'Augustin Seguin 1897-1901</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Factures</entry>
+                            <entry colname="1" rowsep="1">Factures d'Augustin Seguin</entry>
+                            <entry colname="2">F6</entry>
+                            <entry colname="3">Factures d'Augustin Seguin 1902-1904</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P1</entry>
+                            <entry colname="3">Égypte : Karnak</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P2</entry>
+                            <entry colname="3">Égypte : Philae, Memnon, Bab el Molouk, Medinet Abou, Edfou, Kom Ombos</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P3</entry>
+                            <entry colname="3">Égypte : Assouan, île de Philae, île d’Éléphantine, le Nil</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P4</entry>
+                            <entry colname="3">Égypte, Montgolfier, Ardèche</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P5</entry>
+                            <entry colname="3">Liban : Baalbek</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P6</entry>
+                            <entry colname="3">Liban : Beyrouth, Baalbek, Zahlé. Égypte : Assouan</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P7</entry>
+                            <entry colname="3">Liban : Zahlé, Nabatieh, Rachaya, vallée de l’Anti-Liban, Saint-Jean d’Acre. Syrie : Aïn al-Fijah</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Voyages d'Augustin</entry>
+                            <entry colname="2">P8</entry>
+                            <entry colname="3">Jérusalem, Bethlehem, vallée du Jourdain</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Plaques de verre photographiques</entry>
+                            <entry colname="1" rowsep="1">Photographies de famille sur plaques de verre</entry>
+                            <entry colname="2">PVF1-PVF19</entry>
+                            <entry colname="3">[Photographies de famille diverses]</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Cartes en rouleaux et affiches</entry>
+                            <entry colname="1" rowsep="1">Cartes</entry>
+                            <entry colname="2">CSB1-CSB21</entry>
+                            <entry colname="3">Cartes conservées sous boîtes</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Cartes en rouleaux et affiches</entry>
+                            <entry colname="1" rowsep="1">Cartes</entry>
+                            <entry colname="2">CHB22-CHB34</entry>
+                            <entry colname="3">Cartes conservées hors boîtes</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Cartes en rouleaux et affiches</entry>
+                            <entry colname="1" rowsep="1">Affiches</entry>
+                            <entry colname="2">AFF1-AFF5</entry>
+                            <entry colname="3">Affiches</entry>
+                        </row>
+                        <row>
+                            <entry colname="0" rowsep="0">Cartes en rouleaux et affiches</entry>
+                            <entry colname="1" rowsep="1">Plans</entry>
+                            <entry colname="2">PLA1</entry>
+                            <entry colname="3">Plans de chemins de fer</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </scopecontent>
+        
+        <dsc>
+            
+        </dsc>
+        
+        
+    </archdesc>
+    
+</ead>
